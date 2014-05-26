@@ -1,0 +1,415 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+//#pragma file_not_in_maxplusii_format
+(header "graphic" (version "1.3"))
+(pin
+	(input)
+	(rect 128 144 312 160)
+	(text "INPUT" (rect 149 0 177 10)(font "Arial" (font_size 6)))
+	(text "DIFFERENTIAL_P1" (rect 5 0 102 12)(font "Arial" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 108 12)(pt 133 12)(line_width 1))
+		(line (pt 108 4)(pt 133 4)(line_width 1))
+		(line (pt 137 8)(pt 184 8)(line_width 1))
+		(line (pt 108 12)(pt 108 4)(line_width 1))
+		(line (pt 133 4)(pt 137 8)(line_width 1))
+		(line (pt 133 12)(pt 137 8)(line_width 1))
+	)
+	(text "VCC" (rect 152 7 172 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 128 352 312 368)
+	(text "INPUT" (rect 149 0 177 10)(font "Arial" (font_size 6)))
+	(text "DIFFERENTIAL_P2" (rect 5 0 102 12)(font "Arial" ))
+	(pt 184 8)
+	(drawing
+		(line (pt 108 12)(pt 133 12)(line_width 1))
+		(line (pt 108 4)(pt 133 4)(line_width 1))
+		(line (pt 137 8)(pt 184 8)(line_width 1))
+		(line (pt 108 12)(pt 108 4)(line_width 1))
+		(line (pt 133 4)(pt 137 8)(line_width 1))
+		(line (pt 133 12)(pt 137 8)(line_width 1))
+	)
+	(text "VCC" (rect 152 7 172 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 128 272 320 288)
+	(text "INPUT" (rect 157 0 185 10)(font "Arial" (font_size 6)))
+	(text "DIFFERENTIAL_CLK" (rect 5 0 111 12)(font "Arial" ))
+	(pt 192 8)
+	(drawing
+		(line (pt 116 12)(pt 141 12)(line_width 1))
+		(line (pt 116 4)(pt 141 4)(line_width 1))
+		(line (pt 145 8)(pt 192 8)(line_width 1))
+		(line (pt 116 12)(pt 116 4)(line_width 1))
+		(line (pt 141 4)(pt 145 8)(line_width 1))
+		(line (pt 141 12)(pt 145 8)(line_width 1))
+	)
+	(text "VCC" (rect 160 7 180 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 840 144 1054 160)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "DIFFERENTIAL_OUT11" (rect 90 0 209 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 840 160 1054 176)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "DIFFERENTIAL_OUT12" (rect 90 0 209 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 840 176 1054 192)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "DIFFERENTIAL_OUT13" (rect 90 0 209 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 840 192 1054 208)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "DIFFERENTIAL_OUT14" (rect 90 0 209 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 840 352 1054 368)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "DIFFERENTIAL_OUT21" (rect 90 0 209 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 840 368 1054 384)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "DIFFERENTIAL_OUT22" (rect 90 0 209 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 840 384 1054 400)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "DIFFERENTIAL_OUT23" (rect 90 0 209 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 840 400 1054 416)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "DIFFERENTIAL_OUT24" (rect 90 0 209 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(symbol
+	(rect 352 120 808 248)
+	(text "DIFFERENTIAL_OSCILLATOR" (rect 5 0 170 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 112 25 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "DIFFERENTIAL_OSCILLATOR_U" (rect 0 0 180 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_U" (rect 21 27 201 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "DIFFERENTIAL_OSCILLATOR_D" (rect 0 0 180 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_D" (rect 21 43 201 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "DIFFERENTIAL_OSCILLATOR_CLK" (rect 0 0 195 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_CLK" (rect 21 59 216 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 456 32)
+		(output)
+		(text "DIFFERENTIAL_OSCILLATOR_OUT1" (rect 0 0 204 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_OUT1" (rect 231 27 435 41)(font "Arial" (font_size 8)))
+		(line (pt 456 32)(pt 440 32)(line_width 1))
+	)
+	(port
+		(pt 456 48)
+		(output)
+		(text "DIFFERENTIAL_OSCILLATOR_OUT2" (rect 0 0 204 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_OUT2" (rect 231 43 435 57)(font "Arial" (font_size 8)))
+		(line (pt 456 48)(pt 440 48)(line_width 1))
+	)
+	(port
+		(pt 456 64)
+		(output)
+		(text "DIFFERENTIAL_OSCILLATOR_OUT3" (rect 0 0 204 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_OUT3" (rect 231 59 435 73)(font "Arial" (font_size 8)))
+		(line (pt 456 64)(pt 440 64)(line_width 1))
+	)
+	(port
+		(pt 456 80)
+		(output)
+		(text "DIFFERENTIAL_OSCILLATOR_OUT4" (rect 0 0 204 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_OUT4" (rect 231 75 435 89)(font "Arial" (font_size 8)))
+		(line (pt 456 80)(pt 440 80)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 440 112)(line_width 1))
+	)
+)
+(symbol
+	(rect 352 328 808 456)
+	(text "DIFFERENTIAL_OSCILLATOR" (rect 5 0 170 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 112 31 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "DIFFERENTIAL_OSCILLATOR_U" (rect 0 0 180 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_U" (rect 21 27 201 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "DIFFERENTIAL_OSCILLATOR_D" (rect 0 0 180 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_D" (rect 21 43 201 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "DIFFERENTIAL_OSCILLATOR_CLK" (rect 0 0 195 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_CLK" (rect 21 59 216 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 456 32)
+		(output)
+		(text "DIFFERENTIAL_OSCILLATOR_OUT1" (rect 0 0 204 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_OUT1" (rect 231 27 435 41)(font "Arial" (font_size 8)))
+		(line (pt 456 32)(pt 440 32)(line_width 1))
+	)
+	(port
+		(pt 456 48)
+		(output)
+		(text "DIFFERENTIAL_OSCILLATOR_OUT2" (rect 0 0 204 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_OUT2" (rect 231 43 435 57)(font "Arial" (font_size 8)))
+		(line (pt 456 48)(pt 440 48)(line_width 1))
+	)
+	(port
+		(pt 456 64)
+		(output)
+		(text "DIFFERENTIAL_OSCILLATOR_OUT3" (rect 0 0 204 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_OUT3" (rect 231 59 435 73)(font "Arial" (font_size 8)))
+		(line (pt 456 64)(pt 440 64)(line_width 1))
+	)
+	(port
+		(pt 456 80)
+		(output)
+		(text "DIFFERENTIAL_OSCILLATOR_OUT4" (rect 0 0 204 14)(font "Arial" (font_size 8)))
+		(text "DIFFERENTIAL_OSCILLATOR_OUT4" (rect 231 75 435 89)(font "Arial" (font_size 8)))
+		(line (pt 456 80)(pt 440 80)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 440 112)(line_width 1))
+	)
+)
+(connector
+	(pt 816 152)
+	(pt 816 256)
+)
+(connector
+	(pt 816 256)
+	(pt 344 256)
+)
+(connector
+	(pt 344 256)
+	(pt 344 376)
+)
+(connector
+	(pt 344 376)
+	(pt 352 376)
+)
+(connector
+	(pt 816 360)
+	(pt 816 320)
+)
+(connector
+	(pt 816 320)
+	(pt 336 320)
+)
+(connector
+	(pt 352 168)
+	(pt 336 168)
+)
+(connector
+	(pt 336 168)
+	(pt 336 320)
+)
+(connector
+	(pt 312 152)
+	(pt 352 152)
+)
+(connector
+	(pt 312 360)
+	(pt 352 360)
+)
+(connector
+	(pt 352 184)
+	(pt 328 184)
+)
+(connector
+	(pt 328 280)
+	(pt 320 280)
+)
+(connector
+	(pt 328 392)
+	(pt 352 392)
+)
+(connector
+	(pt 328 184)
+	(pt 328 280)
+)
+(connector
+	(pt 328 280)
+	(pt 328 392)
+)
+(connector
+	(pt 808 200)
+	(pt 840 200)
+)
+(connector
+	(pt 808 184)
+	(pt 840 184)
+)
+(connector
+	(pt 808 168)
+	(pt 840 168)
+)
+(connector
+	(pt 808 152)
+	(pt 816 152)
+)
+(connector
+	(pt 816 152)
+	(pt 840 152)
+)
+(connector
+	(pt 808 360)
+	(pt 816 360)
+)
+(connector
+	(pt 816 360)
+	(pt 840 360)
+)
+(connector
+	(pt 840 376)
+	(pt 808 376)
+)
+(connector
+	(pt 808 392)
+	(pt 840 392)
+)
+(connector
+	(pt 840 408)
+	(pt 808 408)
+)
+(junction (pt 328 280))
+(junction (pt 816 152))
+(junction (pt 816 360))
